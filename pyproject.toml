@@ -1,6 +1,18 @@
 [project]
 name = "modulo-1"
 version = "0.1.0"
-description = "Add your description here"
+description = "Ejemplos de Codigo del Módulo 1 del Curso de Python"
+authors = [
+    { name = "Diego Ojeda", email = "daom89@gmail.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "tabulate2==1.10.2",
+]
+
+[project.urls]
+homepage = "https://github.com/tuusuario/modulo-1"
+repository = "https://github.com/tuusuario/modulo-1"
+documentation = "https://github.com/tuusuario/modulo-1/wiki"
