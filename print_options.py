@@ -42,7 +42,7 @@ texto = "Python"
 
 # Alinea el texto a la derecha en un espacio de 10 caracteres, rellenando con '-'
 print(f"|{texto:->9}|")  # Salida: |----Python|
-print(f"|{texto:-<9}|")  # Salida: |----Python|
+print(f"|{texto:-<9}|")  # Salida: |Python----|
 
 # Alinea al centro en un espacio de 10
 print(f"|{texto:-^9}|")  # Salida: |--Python--|
