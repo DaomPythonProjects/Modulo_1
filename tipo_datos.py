@@ -1,0 +1,46 @@
+# palabra_original = "dabale arroz a la zorra el abad" # 5 Caracteres
+# palabra = palabra_original.replace(" ", "") # Elimina los espacios en blanco
+#
+# # print(f'Tu nombre es: {mi_nombre}')
+# # print(type(m i_nombre))
+# # print(f"El caracter es: {mi_nombre[1]}") # Salida: D
+# invertido = "" # Variable para almacenar el texto invertido
+# for i in range(len(palabra) - 1, -1, -1): # 0 hasta 4
+#     invertido = invertido + palabra[i]
+#
+# if invertido == palabra:
+#     print(f"{palabra_original} es un palíndromo")
+# else:
+#     print(f"{palabra_original} no es un palíndromo")
+#
+
+name = "Diego"
+last_name = "Ojeda"
+
+# Usando f-strings (Recomendado)
+template = f"Hola, mi nombre es {name} y mi apellido es {last_name}"
+print('v3', template)
+
+# Métodos más antiguos
+template = ("Hola, mi nombre es {} y mi apellido es {}, mi edad es {}"
+            .format(name, last_name, 48))
+print('v2', template)
+
+# No recomendado, pero aún funcional
+template = "Hola, mi nombre es " + name + " y mi apellido es " + last_name
+print('v1 ', template)
+
+# Multiplicación
+#saludo = "Ja " * 3 + 'mes'  # 'Ja Ja Ja mes'
+saludo = f"{'Ja ' * 3}James"  # 'Ja Ja Ja mes'
+print(saludo)
+
+# Cadenas "Raw" para anular caracteres de escape (útil en rutas de Windows)
+ruta = r'C:\Users\name'
+print(ruta)
+
+# Cadenas multilínea con triples comillas
+mensaje_largo = """Esto es un mensaje
+que ocupa varias
+líneas."""
+print(mensaje_largo)
