@@ -13,34 +13,41 @@
 # else:
 #     print(f"{palabra_original} no es un palíndromo")
 #
+#
+# name = "Diego"
+# last_name = "Ojeda"
+#
+# # Usando f-strings (Recomendado)
+# template = f"Hola, mi nombre es {name} y mi apellido es {last_name}"
+# print('v3', template)
+#
+# # Métodos más antiguos
+# template = ("Hola, mi nombre es {} y mi apellido es {}, mi edad es {}"
+#             .format(name, last_name, 48))
+# print('v2', template)
+#
+# # No recomendado, pero aún funcional
+# template = "Hola, mi nombre es " + name + " y mi apellido es " + last_name
+# print('v1 ', template)
+#
+# # Multiplicación
+# #saludo = "Ja " * 3 + 'mes'  # 'Ja Ja Ja mes'
+# saludo = f"{'Ja ' * 3}James"  # 'Ja Ja Ja mes'
+# print(saludo)
+#
+# # Cadenas "Raw" para anular caracteres de escape (útil en rutas de Windows)
+# ruta = r'C:\Users\name'
+# print(ruta)
+#
+# # Cadenas multilínea con triples comillas
+# mensaje_largo = """Esto es un mensaje
+# que ocupa varias
+# líneas."""
+# print(mensaje_largo)
 
-name = "Diego"
-last_name = "Ojeda"
-
-# Usando f-strings (Recomendado)
-template = f"Hola, mi nombre es {name} y mi apellido es {last_name}"
-print('v3', template)
-
-# Métodos más antiguos
-template = ("Hola, mi nombre es {} y mi apellido es {}, mi edad es {}"
-            .format(name, last_name, 48))
-print('v2', template)
-
-# No recomendado, pero aún funcional
-template = "Hola, mi nombre es " + name + " y mi apellido es " + last_name
-print('v1 ', template)
-
-# Multiplicación
-#saludo = "Ja " * 3 + 'mes'  # 'Ja Ja Ja mes'
-saludo = f"{'Ja ' * 3}James"  # 'Ja Ja Ja mes'
-print(saludo)
-
-# Cadenas "Raw" para anular caracteres de escape (útil en rutas de Windows)
-ruta = r'C:\Users\name'
-print(ruta)
-
-# Cadenas multilínea con triples comillas
-mensaje_largo = """Esto es un mensaje
-que ocupa varias
-líneas."""
-print(mensaje_largo)
+# Enteros
+vidas = int(3_122 / 3)
+vidas -= 1 # Operador de asignación compuesta
+print(vidas) # Salida: 9
+print(f"{vidas:_d}")  # Salida: El número de vidas es: 123,122,537
+print(type(vidas))
