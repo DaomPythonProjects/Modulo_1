@@ -46,8 +46,24 @@
 # print(mensaje_largo)
 
 # Enteros
-vidas = int(3_122 / 3)
-vidas -= 1 # Operador de asignación compuesta
-print(vidas) # Salida: 9
-print(f"{vidas:_d}")  # Salida: El número de vidas es: 123,122,537
-print(type(vidas))
+# vidas = int(3_122 / 3)
+# vidas -= 1 # Operador de asignación compuesta
+# print(vidas) # Salida: 9
+# print(f"{vidas:_d}")  # Salida: El número de vidas es: 123,122,537
+# print(type(vidas))
+
+# Flotantes
+# temperatura = 12.12
+# print(f'Mi temperatura es: {temperatura}') # Salida: Mi temperatura es: 12.12
+# temperatura *= 3
+# print(type(temperatura)) # Salida: <class 'float'>
+#
+# # Notación científica para números muy grandes o pequeños
+# presupuesto = 1.5e6 # 1.5 * 10^6 = 1,500,000.0
+# print(presupuesto)
+
+# # Complejos
+# z = 3j * 2j
+# print('Z =>', z)
+# print(type(z)) # Salida: <class 'complex'>
+# print(f"Parte real: {z.real}, Parte imaginaria: {z.imag}")
