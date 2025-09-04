@@ -45,7 +45,7 @@ que ocupa varias
 líneas."""
 print(mensaje_largo)
 
-Enteros
+# Enteros
 vidas = int(3_122 / 3)
 vidas -= 1 # Operador de asignación compuesta
 print(vidas) # Salida: 9
